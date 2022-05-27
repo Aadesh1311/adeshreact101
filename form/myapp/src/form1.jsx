@@ -9,7 +9,7 @@ const Form = () => {
             ...form,
         [name]:value,
         })
-        console.log(form)
+        console.log(form.username,form.age)
     }
    /* Name
     Age
