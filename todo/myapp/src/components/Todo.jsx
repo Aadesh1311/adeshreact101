@@ -10,7 +10,7 @@ export const Todo = ({ todo,onDelete,onEdit }) => {
     const[value,setValue]=useState(todo.value)
     
     const deleteTodo=async ()=>{
-        await fetch(`http://localhost:3000/todos/${todo.id}`,
+        await fetch(`http://localhost:8080/todos/${todo.id}`,
         {
             method:"DELETE",
             headers:{"content-type":"application/json"}
@@ -20,7 +20,7 @@ export const Todo = ({ todo,onDelete,onEdit }) => {
     };
 
     const editTodo=async ()=>{
-        let response=await fetch(`http://localhost:3000/todos/${todo.id}`,
+        let response=await fetch(`http://localhost:8080/todos/${todo.id}`,
         {
             method:"PATCH",
             headers:{"content-type":"application/json"},

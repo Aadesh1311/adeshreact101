@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { Todos } from './components/Todos';
 import './App.css';
+
+
+let todos=[
+  {id:1,value:"react",completed:true},
+  {id:2,value:"vdom",completed:true},
+  {id:3,value:"babel",completed:false}
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Todos todos={todos}/>
     </div>
   );
 }

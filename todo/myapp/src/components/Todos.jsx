@@ -32,7 +32,7 @@ export const Todos = () => {
     useEffect(()=>{
       const getTodos= async()  =>  {
         try{
-            let response=await fetch(`http://localhost:3000/todos?_page=${pageNumber}`);
+            let response=await fetch(`http://localhost:8080/todos?_page=${pageNumber}`);
             console.log(response)
             let data = await response.json();
            console.log(data)
