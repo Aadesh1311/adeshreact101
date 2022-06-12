@@ -23,7 +23,74 @@
     {
       "country": " ghy",
       "id": 6
+    },
+    {
+      "country": " dfwedfew",
+      "id": 7
+    },
+    {
+      "country": " kjhhj",
+      "id": 8
+    },
+    {
+      "country": " kjhhj",
+      "id": 9
     }
   ],
-  "cities": []
+  "cities": [
+    {
+      "citiName": " gujhi",
+      "population": "456",
+      "countryName": "Srilanka",
+      "id": 1
+    },
+    {
+      "citiName": " asdd",
+      "population": "04561",
+      "countryName": " kjhhj",
+      "id": 2
+    },
+    {
+      "citiName": " ass",
+      "population": 0,
+      "countryName": "Srilanka",
+      "id": 3
+    },
+    {
+      "citiName": " ass",
+      "population": 0,
+      "countryName": "Srilanka",
+      "id": 4
+    },
+    {
+      "citiName": " ass",
+      "population": 0,
+      "countryName": "Srilanka",
+      "id": 5
+    },
+    {
+      "citiName": " ass",
+      "population": 0,
+      "countryName": "Srilanka",
+      "id": 6
+    },
+    {
+      "citiName": " ass",
+      "population": 0,
+      "countryName": "Srilanka",
+      "id": 7
+    },
+    {
+      "citiName": " ass",
+      "population": 0,
+      "countryName": "Srilanka",
+      "id": 8
+    },
+    {
+      "citiName": " fgh",
+      "population": 0,
+      "countryName": "Pakistan",
+      "id": 9
+    }
+  ]
 }
