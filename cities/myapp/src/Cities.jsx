@@ -44,6 +44,8 @@ const Cities = () => {
           },[page,limit])
           
     const postCountry=async ()=>{
+        if(newCountry)
+        {
         let r=await axios ({
             method:"POST",
             url:"http://localhost:8080/countries",
@@ -51,10 +53,10 @@ const Cities = () => {
             
                 country:newCountry
             }
-        })
+         })
         setCountry([...country,r.data])
         setNewCountry(" ")
-    }
+    } }
 
     const postCiti=async ()=>{
         let r=await axios ({
