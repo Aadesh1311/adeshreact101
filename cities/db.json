@@ -1,0 +1,29 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "country": "Pakistan"
+    },
+    {
+      "id": 3,
+      "country": "Usa"
+    },
+    {
+      "id": 4,
+      "country": "Srilanka"
+    },
+    {
+      "country": " ghjk",
+      "id": 5
+    },
+    {
+      "country": " ghy",
+      "id": 6
+    }
+  ],
+  "cities": []
+}
