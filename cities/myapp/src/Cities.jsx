@@ -159,7 +159,7 @@ const Cities = () => {
     }}}
     
     >prev</button>
-    <button disabled={(page<(Math.floor(citi.length/5)))? false:true}
+    <button disabled={(page<(Math.floor(citi.length/5)+2))? false:true}
      onClick={(e)=>{
         if(page<(Math.floor(citi.length/limit)+2)){
             setPage(page+1)}}}>Next</button>
