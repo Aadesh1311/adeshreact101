@@ -134,13 +134,13 @@ const Cities = () => {
       </Tr>
     </Thead>
     <Tbody>
-    {citi.map((data)=>{
+{citi.map((data)=>{
                       return (
                           <Tr key={data.id}>
                           <Td>{data.citiName}</Td>
                           <Td>{data.population}</Td>
                           <Td>{data.countryName}</Td>
-                          </Tr>
+                              </Tr>
                       )
                   })}
     
@@ -159,9 +159,9 @@ const Cities = () => {
     }}}
     
     >prev</button>
-    <button disabled={(page<(Math.floor(citi.length/5)+2))? false:true}
+    <button disabled={(page<(Math.floor(citi.length/5)))? false:true}
      onClick={(e)=>{
-        if(page<(Math.floor(citi.length/5)+2)){
+        if(page<(Math.floor(citi.length/limit)+2)){
             setPage(page+1)}}}>Next</button>
     
 </div>
